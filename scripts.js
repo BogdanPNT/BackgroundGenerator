@@ -19,8 +19,9 @@ function getGradientReversed(){
 }
 
 function setGradient() {
-    body.style = getGradient();
-    h3.textContent = getGradient();
+    body.style = getGradient(); //Set the gradient to the body background
+    h3.textContent = getGradient(); //Write the CSS code to the h3 tag
+    setButtonColor(); //Set the gradient to the button;
 }
 
 function generateRandomColor(){
