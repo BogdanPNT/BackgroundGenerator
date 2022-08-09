@@ -41,9 +41,9 @@ function generateRandomGradient() {
 
 function copyToClipboardGradient() {
     navigator.clipboard.writeText(getGradient());
-    copyText.innerHTML = "COPIED!";
+    copyText.textContent = "COPIED!";
     setTimeout(function(){
-        copyText.innerHTML = "Copy to clipboard";
+        copyText.textContent = "Copy to clipboard";
     }, 1000);
 }
 
